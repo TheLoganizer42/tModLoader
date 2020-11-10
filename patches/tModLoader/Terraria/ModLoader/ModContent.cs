@@ -549,6 +549,7 @@ namespace Terraria.ModLoader
 			MountLoader.ResizeArrays();
 			BuffLoader.ResizeArrays();
 			PlayerHooks.RebuildHooks();
+			PlayerDrawLayerHooks.ResizeArrays();
 			WorldHooks.ResizeArrays();
 
 			if (!Main.dedServ) {
